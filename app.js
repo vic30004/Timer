@@ -13,6 +13,13 @@
     },1000) 
         }
       }
+      pause(){
+        this.p=true;
+        if(this.p){
+            clearInterval(this.timer)
+        }   
+        }
+
    
 }
 
