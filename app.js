@@ -36,3 +36,10 @@ class Time {
     }
   }
 }
+
+const time = new Time();
+
+const play = document.querySelector("#play")
+const stop = document.querySelector("#stop")
+const pause = document.querySelector("#pause")
+const unpause = document.querySelector("#unpase")
