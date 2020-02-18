@@ -27,4 +27,12 @@ class Time {
       }, 1000);
     }
   }
+
+  stop() {
+    if (this.p) {
+      this.p = false;
+      this.time = 60;
+      clearInterval(this.timer);
+    }
+  }
 }
