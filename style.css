@@ -21,3 +21,22 @@ body{
     margin:3rem auto;
     border-radius: 30px;
 }
+
+.timer{
+    width: 100px;
+    background-color: rgb(227, 241, 224);
+    text-align: center;
+    border-radius: 50%;
+    height: 100px;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px;
+    color: #333;
+}
+
+.timer h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
