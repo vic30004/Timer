@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(68, 68, 68);
+}
+
+#time{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border: 5px solid rgb(29, 163, 29);
+    box-shadow: -5px 5px 50px rgb(29, 163, 29);
+    color: aliceblue;
+    width: 500px;
+    height: 200px;
+    margin:3rem auto;
+    border-radius: 30px;
+}
