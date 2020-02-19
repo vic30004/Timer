@@ -31,7 +31,7 @@ class Time {
   }
 }
 // let count = window.prompt("Select a time")
-const time = new Time(parseInt(2));
+const time = new Time(parseInt(60));
 
 play.addEventListener("click", e => {
   e.preventDefault();
@@ -55,4 +55,5 @@ play.addEventListener("click", e => {
 stop.addEventListener("click", e => {
   e.preventDefault();
   time.stop();
+  play.textContent="Play"
 });

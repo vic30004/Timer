@@ -24,7 +24,7 @@ body{
 
 .timer{
     width: 100px;
-    background-color: rgba(227, 241, 224, 0.616);
+    background-color: rgb(227, 241, 224);
     text-align: center;
     border-radius: 50%;
     height: 100px;
@@ -39,4 +39,15 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     
+}
+
+#play,#stop{
+    padding: 0.3rem 0.75rem;
+    margin: 0.5rem;
+    background-color:rgb(94, 155, 94);
+    border: 3px solid rgb(65, 63, 63);
+    font-weight: bold;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 5px;
 }
