@@ -31,6 +31,24 @@ body{
     margin: 1rem 0;
     box-shadow: 0 0 10px;
     color: #333;
+    position: relative;
+}
+
+.timer span{
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px greenyellow;
+
+}
+
+.spin{
+    animation: spin 1s ease-in-out infinite;
+    transition: all 1s ease;
 }
 
 .timer h1{
@@ -50,4 +68,53 @@ body{
     font-size: 1.2rem;
     outline: none;
     border-radius: 5px;
+}
+
+@keyframes spin{
+    0%{
+        transform: translate(-10%,10);
+        left: 45%;
+
+    }
+    10%{
+        top: 0%;
+        left: 65%;
+    }
+    20%{
+        top: 20%;
+        left: 90%;
+    }
+    30%{
+        top: 45%;
+        left: 95%;
+    }
+    40%{
+        top:70%;
+        left: 90%;
+    }
+    50%{
+        top:100%;
+        left: 50%;
+    }
+    60%{
+        top:80%;
+        left: 5%;
+    }
+    70%{
+        top: 40%;
+        left: -5%;
+    }
+    80%{
+        top: 25%;
+        left: -5%;
+    }
+    90%{
+        top: 5%;
+        left: 10%;
+    }
+    100%{
+        top: -5%;
+        left: 45%;
+    }
+
 }
